@@ -1,0 +1,148 @@
+---
+title: "GSF-6028-
+Structure du capital"
+format: revealjs
+editor: visual
+---
+
+## Proposition MM I
+
+La valeur de l'entreprise n'est pas affectée par l'effet de levier \\\[ V_L = V_U \\\]
+
+## Proposition MM I
+
+-   Les actionnaires d'une entreprise avec effet de levier reçoivent \\( EBIT - r_B B \\)
+
+-   Les obligataires reçoivent \\( r_B B \\)
+
+-   Ainsi, le flux de trésorerie total à tous les intervenants est \\\[ (EBIT - r_B B) + r_B B \\\]
+
+-   La valeur actuelle de ce flux de trésorerie est \\( V_L \\)
+
+## Proposition MM I
+
+-   Il est évident que \\\[ (EBIT - r_B B) + r_B B = EBIT \\\]
+-   La valeur actuelle de ce flux de trésorerie est \\( V_U \\)
+-   Par conséquent \\( V_L = V_U \\)
+
+## Proposition MM I
+
+-   Il est évident que \\\[ (EBIT - r_B B) + r_B B = EBIT \\\]
+-   La valeur actuelle de ce flux de trésorerie est \\( V_U \\)
+-   Par conséquent \\( V_L = V_U \\)
+
+## Proposition MM II
+
+L'effet de levier augmente le risque et le rendement pour les actionnaires \\\[ r_S = r_0 + \\left(\\frac{B}{S}\\right) (r_0 - r_B) \\\]
+
+-   \\( r_B \\) est le taux d'intérêt (coût de la dette)
+-   \\( r_S \\) est le rendement sur les capitaux propres (levier) (coût des capitaux propres) et \\( r_0 \\) est le rendement sur les capitaux propres non endettés (coût des capitaux)
+-   \\( B \\) est la valeur de la dette et \\( S \\) est la valeur des capitaux propres endettés
+
+## Proposition MM II
+
+-   La dérivation est simple :
+    \\\[ r\_{WACC} = \\frac{B}{B + S} \\times r_b + \\frac{S}{B + S} \\times r_s \\\]
+
+-   Ensuite, posez \\( r\_{WACC} = r_0 \\)
+
+    \\\[ \\frac{B}{B + S} \\times r_b + \\frac{S}{B + S} \\times r_s = r_0 \\\]
+
+-   Multipliez les deux côtés par \\(\\frac{B + S}{S}\\)
+
+## Proposition MM II
+
+\\\[ \\frac{B (B+S)}{(B + S)S} \\times r_b + \\frac{S (B+S)}{(B + S)S} \\times r_s = \\frac{B + S}{S} r_0 \\\]
+
+\\\[ \\frac{B}{S} \\times r_b + r_s = \\frac{B + S}{S} \\times r_0 \\\]
+\\\[ \\frac{B}{S} \\times r_b + r_s = \\frac{B}{S} \\times r_0 + r_0 \\\]
+\\\[ r_s = r_0 + \\frac{B}{S} \\times (r_0 - r_b) \\\]
+
+## Proposition MM II
+
+![Le coût des fonds propres, le coût de la dette et le coût moyen pondéré du capital : MM Proposition II sans impôt sur les sociétés](Capture d’écran, le 2024-03-17 à 17.33.23.png)
+
+## Proposition MM I - avec l'impôt sur les sociétés
+
+La valeur de l'entreprise augmente avec l'effet de levier \\\[ V_L = V_U +T_c B \\\]
+
+## Proposition MM I - avec l'impôt sur les sociétés
+
+-   Les actionnaires d'une entreprise avec effet de levier reçoivent \\\[ (EBIT - r_B B ) (1-T_c)\\\]
+
+-   Les obligataires reçoivent \\( r_B B \\)
+
+-   Ainsi, le flux de trésorerie total à tous les intervenants est \\\[ (EBIT - r_B B)(1-T_c) + r_B B \\\]
+
+-   La valeur actuelle de ce flux de trésorerie est \\( V_L \\)
+
+## Proposition MM I - avec l'impôt sur les sociétés
+
+\\\[V_L=(EBIT - r_B B)(1-T_c) + r_B B \\\]
+
+\\\[V_L= EBIT(1-T_c) - r_B B (1-T_c) +r_B B \\\]
+
+\\\[V_L= EBIT(1-T_c) - r_B B +T_c r_B B +r_B B \\\]
+
+\\\[V_L= EBIT(1-T_c) +T_c r_B B\\\]
+
+## Proposition MM I - avec l'impôt sur les sociétés
+
+-   La valeur actuelle de ce flux de trésorerie est est $V_L$
+
+-   La valeur actuelle du premier terme est $V_U$
+
+-   La valeur actuelle du second terme est $T_C B$
+
+$$
+V_L=V_U + T_c B
+$$
+
+## Proposition MM II - avec l'impôt sur les sociétés
+
+Une partie de l'augmentation du risque et du rendement des actions est compensée par le bouclier fiscal sur les intérêts \\\[ r_S = r_0 + \\left(\\frac{B}{S}\\right) (r_0 - r_B)(1-T_c) \\\]
+
+-   \\( r_B \\) est le taux d'intérêt (coût de la dette)
+-   \\( r_S \\) est le rendement sur les capitaux propres (levier) (coût des capitaux propres) et \\( r_0 \\) est le rendement sur les capitaux propres non endettés (coût des capitaux)
+-   \\( B \\) est la valeur de la dette et \\( S \\) est la valeur des capitaux propres endettés
+
+## Proposition MM II - avec l'impôt sur les sociétés
+
+Commencer avec la Proposition MM I avec les impôts:
+
+$$
+V_L = V_U + T_C B 
+$$
+$$
+S + B = V_U + T_C B 
+$$
+$$
+V_U = S + B(1 - T_C)
+$$
+
+## Proposition MM II - avec l'impôt sur les sociétés
+
+Les flux de trésorerie de chaque côté du bilan doivent être égaux :
+
+$$
+S_{r_s} + B_{r_B} = V_U r_0 + T_C B_{r_B}
+$$
+
+$$
+S_{r_s} + B_{r_B} = [S + B(1 - T_C)]r_0 + T_C r_B B
+$$
+
+## Proposition MM II - avec l'impôt sur les sociétés
+
+Diviser les deux côtés par \\( S \\): $$
+r_s + \frac{B}{S} r_B = [1 + \frac{B}{S}(1 - T_C)]r_0 + \frac{B}{S} T_C r_B$$
+
+Ce qui se réduit rapidement à :
+
+$$
+r_s = r_0 + \frac{B}{S}(1 - T_C)(r_0 - r_B)
+$$
+
+## Proposition MM II - avec l'impôt sur les sociétés
+
+![L'effet du levier financier sur le coût de la dette et des fonds propres avec l'impôt sur les sociétés et des fonds propres avec l'impôt sur les sociétés](Capture d’écran, le 2024-03-17 à 21.28.30.png)
